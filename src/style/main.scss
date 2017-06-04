@@ -1,0 +1,25 @@
+// global
+@import "global/mixin";
+@import "global/variables";
+@import "global/fonts";
+@import "global/reset";
+@import "global/base";
+
+// templates
+@import "templates/video";
+@import "templates/about";
+@import "templates/contacts";
+@import "templates/events";
+@import "templates/gallery";
+@import "templates/header";
+@import "templates/infographic";
+@import "templates/motivation";
+@import "templates/pricing";
+@import "templates/product";
+@import "templates/reviews";
+@import "templates/services";
+@import "templates/sports";
+@import "templates/subscribe";
+@import "templates/team";
+@import "templates/welcome";
+@import "templates/media.scss";

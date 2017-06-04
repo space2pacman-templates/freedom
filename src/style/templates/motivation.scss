@@ -1,0 +1,24 @@
+.motivation {
+	height: 431px;
+	text-align: center;
+    background-position-y: 33%;
+	position: relative;
+	z-index: 1;
+}
+
+.motivation-bg {
+	background-image: url(../img/motivation.jpg);
+	background-size: cover;
+}
+
+.motivation__header_small {
+	padding-top: 145px;
+}
+
+.motivation__header_big {
+	margin-top: 3px;
+}
+
+.motivation__caption {
+	margin-top: 25px;
+}

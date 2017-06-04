@@ -1,0 +1,103 @@
+.infographic {
+    height: 404px;
+    background-image: url(../img/bg.png);
+}
+
+.infographic__block {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infographic__block__box {
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 100px;
+	margin-right: 50px;
+    float: left;
+	position: relative;
+}
+
+.infographic__block__box-score {
+	font-size: 30px;
+    font-family: $OpenSansB;
+    color: #ff9c00;
+}
+
+.infographic__block__box-tour-name {
+    margin-top: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $OpenSansR;
+}
+
+.infographic__block__box-icon {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+
+.infographic__block__box-button {
+    margin: 0 auto;
+	margin-top: 18px;
+}
+
+.infographic__block__box-info {
+	display: none;
+	background: #232323;
+    position: absolute;
+    width: calc(100% + 100px);
+    height: 303px;
+    left: -50px;
+    top: -100px;
+	padding-top: 100px;
+	transition: all, .25s;
+    opacity: 0;
+}
+
+.infographic__block__box-button:hover + .infographic__block__box-info {
+	display: block;
+}
+
+.infographic__block__box-info:hover {
+	display: block;
+	transition: all, .25s;
+    opacity: 1;
+}
+
+.infographic__block__box-text {
+	font-size: 13px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 250px;
+    font-family: $OpenSansR;
+}
+
+.infographic-icon-01 {
+    width: 129px;
+    height: 93px;
+    background-image: url(../img/ig-01.png);
+}
+
+.infographic-icon-02 {
+    width: 85px;
+    height: 93px;
+    background-image: url(../img/ig-02.png);
+    background-repeat: no-repeat;
+}
+
+.infographic-icon-03 {
+    width: 76px;
+    height: 93px;
+	background-image: url("../img/ig-03.png");
+}
+
+.infographic-icon-04 {
+    width: 67px;
+    height: 93px;
+	background-image: url("../img/ig-04.png");
+}

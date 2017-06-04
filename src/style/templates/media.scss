@@ -1,0 +1,757 @@
+@media (max-width: 1400px) {
+/***** DEFAULT *****/
+.header_white_big {
+    font-size: 50px;
+}
+
+.header_orange_big {
+    font-size: 50px;
+}
+/***** HEADER *****/
+.header {
+    height: 650px;
+}
+
+.header__menu {
+    width: 100%;
+}
+
+.header__slider {
+    height: 410px;
+    padding-top: 240px;
+}
+
+.header__slider-h2 {
+    font-size: 20px;
+    font-family: $OpenSansB;
+}
+
+.header__slider-h1 {
+    margin-top: 24px;
+    font-size: 60px;
+}
+
+.header__slider-h1 div {
+	border: none;
+    background: #ff9c00;
+    color: #fff;
+    margin-top: 9px;
+    height: 52px;
+    line-height: 51px;
+	margin-left: -4px;
+}
+
+.header__slider-h3 {
+    font-size: 20px;
+}
+
+/***** ABOUT *****/
+.about {
+    height: 100%;
+}
+
+.about__left {
+    width: 100%;
+	height: 350px;
+    float: none;
+}
+
+.about__right {
+	width: calc(100% - 30px);
+	height: 100%;
+    float: none;
+    padding: 50px 0px 0px 30px;
+}
+
+/***** SERVICES *****/
+.services-bg {
+    height: 370px;
+}
+
+.services__block {
+    padding-top: 0px;
+}
+
+.services__block-right {
+	height: 100%;
+}
+
+.services__block-right-photo {
+	float: none;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.services__block-right-photo:after {
+	display: none;
+}
+
+.services__block-right-content {
+	float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services__block-left {
+    height: 100%;
+}
+
+.services__block-left-photo {
+	float: none;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.services__block-left-photo:after {
+	display: none;
+}
+
+.services__block-left-content {
+	float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/***** WELCOME *****/
+.welcome {
+	height: 530px;
+}
+
+.welcome__header_small {
+	padding-top: 95px;
+}
+
+.welcome__header_big {
+    margin-top: 0px;
+}
+/***** INFOGRAPHIC *****/
+/***** VIDEO *****/
+.video {
+    height: 1122px;
+}
+
+.video__content {
+    width: 100%;
+}
+
+.video__content_right {
+	margin-top: 0;
+    padding-top: 235px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: table;
+}
+
+.video__content_right-video {
+    width: 400px;
+    height: 400px;
+}
+
+.icon-play-video {
+    margin-top: 153px;
+    margin-left: 154px;
+}
+
+.video__content_left {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.video__header_big {
+    margin-top: 0px;
+}
+
+.video__button {
+	margin-left: auto;
+    margin-right: auto;
+}
+/***** MOTIVATION *****/
+.motivation {
+    height: 320px;
+}
+
+.motivation__header_small {
+    padding-top: 96px;
+}
+
+.motivation__header_big {
+    margin-top: 0px;
+}
+/***** SPORTS *****/
+/***** PRODUCT *****/
+.product {
+    height: 1303px;
+}
+
+.product__block {
+	height: 1303px;
+    width: 767px;
+    margin: 0 auto;
+}
+
+.product__block-left {
+	margin-top: 155px;
+    margin-left: 15px;
+    width: 95%;
+}
+
+.product__header_big {
+    margin-top: 0px;
+}
+
+.product__header_big br {
+	display: none;
+}
+
+.product__description br {
+	display: none;
+}
+
+.product__block-right-characteristics {
+    margin-top: 96px;
+    margin-left: 11px;
+}
+
+.product__block-right-helmet {
+    width: 500px;
+    height: 560px;
+    margin-right: 65px;
+    margin-top: 55px;
+}
+/***** GALLERY *****/
+.gallery__box {
+    height: 192px;
+}
+/***** REVIEWS*****/
+/***** EVENTS *****/
+.events {
+    height: 765px;
+}
+
+.events__box {
+    margin-top: 40px;
+    height: 385px;
+}
+
+.events__box-bottom-block {
+    width: calc(100% - 20px);
+}
+
+.events__box-info {
+    height: 386px;
+    top: -219px;
+}
+
+/***** SUBSCRIBE *****/
+.subscribe {
+    height: 493px;
+}
+
+.subscribe__input {
+	width: 630px;
+}
+/***** FOOTER *****/
+.footer {
+    height: 650px;
+    padding-top: 132px;
+}
+
+.footer__nav {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.footer__nav_active {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 0px;
+    height: 20px;
+    line-height: 7px;
+}
+
+.footer__address {
+    margin-left: 150px;
+	
+}
+
+.footer__address-text {
+    margin-left: 0px;
+}
+
+.footer__follow-us {
+    width: 125px;
+    margin-left: 75px;
+}
+
+.footer__vidget {
+    width: 750px;
+    margin-top: 15px;
+    margin-left: 0px;
+    padding-right: 35px;
+}
+
+.footer__vidget-header {
+    margin: 0 auto;
+}
+
+.footer__vidget-text {
+    margin-left: 50px;
+}
+
+.footer__copyright {
+    margin-top: 52px;
+}
+}
+
+@media (max-width: 1199px) {
+/***** DEFAULT *****/
+/***** HEADER *****/
+
+/***** CONTACTS *****/
+.contacts {
+    height: 1300px;
+}
+
+.contacts__block {
+    width: 100%;
+}
+
+.contacts__block-left {
+    width: calc(100% - 30px);
+    float: none;
+    padding-left: 15px;
+}
+
+.contacts__block-right {
+    width: calc(100% - 65px);
+    float: none;
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.contacts__address-header {
+    background: none;
+}
+
+.contacts__block-content-with-border {
+	border: none;
+    margin-top: 0;
+    color: #ff9c00;
+}
+/***** WELCOME *****/
+/***** INFOGRAPHIC *****/
+.infographic {
+    height: 710px;
+}
+/***** VIDEO *****/
+/***** MOTIVATION *****/
+/***** SPORTS *****/
+/***** PRODUCT *****/
+/***** GALLERY *****/
+/***** REVIEWS*****/
+/***** EVENTS *****/
+/***** SUBSCRIBE *****/
+/***** FOOTER *****/
+.footer__vidget {
+    width: 650px;
+}
+}
+
+@media (max-width: 768px) {
+/***** DEFAULT *****/
+.header_white_big {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header_orange_small {
+    font-size: 20px;
+}
+
+.header_white_small {
+    font-size: 20px;
+}
+
+.header_orange_big {
+    font-size: 40px;
+    width: 90%;
+}
+
+.welcome__description {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.header__caption {
+    font-size: 20px;
+}
+/***** HEADER *****/
+.header__menu-desktop-link {
+    display: none;
+	height: 60px;
+}
+
+.header__menu-mobile-navbar {
+	display: block;
+}
+
+.header__menu-bg {
+	height: 60px;
+}
+
+.header__slider {
+	height: 450px;
+    padding-top: 200px;
+}
+
+.header__slider-h2 {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+}
+
+.header__slider-h1 {
+	font-size: 50px;
+    line-height: 40px;
+}
+
+.header__slider-h1 div {
+	height: 45px;
+    line-height: 45px;
+}
+
+.header__slider-h3 {
+	font-size: 16px;
+}
+
+/***** ABOUT *****/
+.about__left {
+	height: 260px;
+}
+
+.about__right {
+    padding: 50px 0px 0px 10px;
+    width: calc(100% - 10px);
+}
+
+/***** SERVICES *****/
+.services-bg {
+    height: 260px;
+}
+
+.services__header {
+	padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.services__block-right-photo {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.services__block-right-content {
+    width: 100%;
+}
+
+.services__block-right-header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.services__block-right-text {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.services__block-left-photo {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.services__block-left-content {
+    width: 100%;
+}
+
+.services__block-left-header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.services__block-left-text {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/***** PRICING *****/
+.pricing__header_big {
+	margin-bottom: 40px;
+}
+
+/***** WELCOME *****/
+.welcome {
+    height: 650px;
+}
+/***** INFOGRAPHIC *****/
+/***** VIDEO *****/
+.video {
+    height: 900px;
+}
+
+.video__content_right {
+    width: 100%;
+    padding-top: 140px;
+}
+
+.video__header_big {
+	margin: 0 auto;
+}
+
+.video__content_right-video {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.icon-play-video {
+    margin-top: 55px;
+    margin-left: 55px;
+}
+
+.video__description {
+    margin-left: 0px;
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 90%;
+}
+/***** MOTIVATION *****/
+/***** SPORTS *****/
+.sports {
+    height: 602px;
+}
+
+.sports__block {
+	height: 600px;
+}
+
+.sports__block_header {
+    margin-top: 250px;
+}
+/***** PRODUCT *****/
+.product {
+    height: 650px;
+}
+
+.product__block-right {
+	display: none;
+}
+
+.product__block {
+	width: 100%;
+    height: 650px;
+}
+
+.product__description {
+    margin-top: 28px;
+    width: 90%;
+}
+/***** GALLERY *****/
+/***** REVIEWS*****/
+.reviews {
+    height: 800px;
+}
+
+.reviews__box {
+    width: 100%;
+    height: 650px;
+}
+
+.reviews__box-photo {
+    float: none;
+    margin: 0 auto;
+}
+
+.reviews__box-text {
+    float: none;
+    margin-top: 30px;
+	width: 80%;
+}
+/***** EVENTS *****/
+.events {
+    height: 700px;
+}
+
+.events__box {
+    height: 310px;
+}
+
+.events__box-bottom-block {
+    margin-top: 130px;
+}
+
+.events__box-button:hover + .events__box-info {
+	display: none;
+}
+/***** SUBSCRIBE *****/
+.subscribe__input {
+    width: 60%;
+}
+
+.subscribe__header__description {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+/***** FOOTER *****/
+.footer {
+    padding-top: 100px;
+	height: 100%;
+}
+
+.footer__header {
+	width: 100%;
+    text-align: center;
+}
+
+.footer__header-text {
+	float: none;
+    width: 100%;
+}
+
+.footer__header-number {
+    width: 115px;
+    margin: 0 auto;
+    margin-top: 15px;
+    float: none;
+}
+
+.footer__header-clock {
+	width: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    float: none;
+}
+
+.footer__nav {
+    margin-left: 0;
+    margin-top: 160px;
+    float: none;
+    width: 100%;
+}
+
+.footer__address {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.footer__address-header {
+    margin: 0 auto;
+}
+
+.footer__follow-us-header {
+    margin-left: -2px;
+}
+
+.footer__follow-us {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    float: none;
+}
+
+.footer__vidget {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.footer__vidget-header {
+    margin-left: calc(50% - 39px);
+}
+
+.footer__copyright {
+    margin-bottom: 52px;
+}
+}
+
+@media (max-width: 599px) {
+/***** DEFAULT *****/
+/***** HEADER *****/
+/***** WELCOME *****/
+/***** INFOGRAPHIC *****/
+.infographic {
+    height: 1320px;
+}
+/***** VIDEO *****/
+/***** MOTIVATION *****/
+/***** SPORTS *****/
+/***** PRODUCT *****/
+/***** GALLERY *****/
+/***** REVIEWS*****/
+/***** EVENTS *****/
+/***** SUBSCRIBE *****/
+/***** FOOTER *****/
+}
+
+@media (max-width: 399px) {
+/***** SERVICES *****/
+.services-bg {
+    height: 300px;
+}
+
+/***** CONTACTS *****/
+.contacts {
+    height: 1400px;
+}
+}
+
+@media (max-width: 320px) {
+/***** DEFAULT *****/
+/***** HEADER *****/
+/***** SERVICES *****/
+.services-bg {
+    height: 340px;
+}
+
+.services__block-right-photo {
+	width: 250px;
+    height: 250px;
+}
+
+.services__block-left-photo {
+	width: 250px;
+    height: 250px;
+}
+
+/***** CONTACTS *****/
+.contacts {
+    height: 1500px;
+}
+
+/***** WELCOME *****/
+/***** INFOGRAPHIC *****/
+/***** VIDEO *****/
+/***** MOTIVATION *****/
+/***** SPORTS *****/
+/***** PRODUCT *****/
+/***** GALLERY *****/
+/***** REVIEWS*****/
+/***** EVENTS *****/
+/***** SUBSCRIBE *****/
+/***** FOOTER *****/
+}

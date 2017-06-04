@@ -1,0 +1,49 @@
+.video {
+	height: 800px;
+	position: relative;
+	z-index: 1;
+}
+
+.video-bg {
+    background-image: url(../img/video.jpg);
+	background-size: cover;
+}
+
+.video__content {
+	width: 1075px;
+    height: 585px;
+    margin: 0 auto;
+}
+
+.video__content_right {
+	margin-top: 215px;
+    float: left;
+    width: 375px;
+}
+
+.video__content_right-video {
+    width: 370px;
+    height: 370px;
+    background: #dcdcdc;
+    border-radius: 50%;
+}
+
+.video__content_left {
+    float: left;
+    width: 570px;
+    margin-top: 236px;
+    margin-left: 75px;
+}
+
+.video__header_big {
+	margin-top: 3px;
+}
+
+.video__description {
+	margin-top: 32px;
+    margin-left: 4px;
+}
+
+.video__button {
+    margin-top: 41px;
+}

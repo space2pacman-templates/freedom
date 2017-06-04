@@ -1,0 +1,165 @@
+.events {
+    height: 909px;
+	position: relative;
+    z-index: 1;
+}
+
+.events-bg {
+    position: absolute;
+    z-index: 0;
+    background-image: url(../img/events.jpg);
+    background-size: cover;
+    width: 100%;
+    height: inherit;
+}
+
+.events__header_small {
+	text-align: center;
+    padding-top: 96px;
+    position: relative;
+    z-index: 1;
+}
+
+.events__header_big {
+    margin-top: 3px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.events__box {
+    margin-top: 94px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 466px;
+    background: #000000;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.events__box-img-01 {
+	background-image: url(../img/skydive.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+.events__box-img-02 {
+	background-image: url(../img/sufring-chanpionship.jpg);
+	background-size: cover;
+    background-position-x: 55%;
+	height: 100%;
+}
+
+.events__box-img-03 {
+	background-image: url(../img/mountain-challeng.jpg);
+	background-size: cover;
+    background-position-x: 55%;
+	height: 100%;
+}
+
+.events__box-temperature {
+    padding-top: 23px;
+    margin-left: 55px;
+    color: #ff9c00;
+    font-size: 20px;
+    font-family: $OpenSansB;
+}
+
+.events__box-temperature:before {
+    content: "";
+    display: block;
+    background-image: url(../img/sun-icon.png);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -2px;
+}
+
+.events__box-temperature sup {
+    vertical-align: super;
+    font-size: 12px;
+    text-transform: none;
+    font-family: $OpenSansR;
+}
+
+.events__box-bottom-block {
+    margin-left: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 20px);
+}
+
+.events__box-city {
+	background: #ff9c00;
+    display: table;
+    font-family: $OpenSansB;
+    font-size: 20px;
+	text-transform: uppercase;
+    padding: 5px 7px 5px 7px;
+}
+
+.events__box-name {
+	margin-top: 16px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: $OpenSansB;
+}
+
+.events__box-date {
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 18px;
+    font-family: $OpenSansR;
+}
+
+.events__box-date:before {
+    content: "";
+    display: block;
+    background-image: url(../img/callendar-icon.png);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-left: -26px;
+    margin-top: -1px;
+}
+
+.events__box-button {
+	margin-top: 20px;
+}
+
+.events__button {
+	margin-top: 15px;
+}
+
+.events__box-info {
+    display: none;
+    background: #232323;
+    position: absolute;
+    width: calc(100% + 20px);
+    height: 466px;
+    left: -20px;
+    top: -300px;
+    transition: all, .25s;
+    opacity: 0;
+}
+
+.events__box-button:hover + .events__box-info {
+	display: block;
+}
+
+.events__box-info:hover {
+	display: block;
+	transition: all, .25s;
+    opacity: 1;
+}
+
+.events__box-text {
+	font-size: 13px;
+    line-height: 25px;
+    width: 90%;
+    margin-top: 15px;
+    font-family: $OpenSansR;
+}

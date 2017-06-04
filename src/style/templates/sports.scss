@@ -1,0 +1,126 @@
+.sports {
+    height: 702px;
+}
+
+.sports__block {
+	width: 100%;
+    height: 702px;
+	float: left;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+    margin-bottom: 40px;
+}
+
+.sports__header {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 41px;
+    margin-top: 27px;
+	text-align: left !important;
+    font-family: $OpenSansR;
+}
+
+.sports__header span {
+    font-size: 13px;
+    margin-left: 4px;
+    color: #ff9c00;
+    font-family: $OpenSansB;
+    text-transform: none;
+}
+
+.sports__header sup {
+	vertical-align: super;
+    font-size: 6px;
+    text-transform: none;
+}
+
+.sports__block_header {
+    margin-top: 305px;
+    font-family: $OpenSansR;
+}
+
+.sports__block_content {
+    margin-top: 8px;
+}
+
+.sports__icon-01 {
+	background-image: url(../img/thermometer.png);
+	background-repeat: no-repeat;
+    width: 11px;
+    height: 23px;
+    float: left;
+    margin-left: -21px;
+    margin-top: -5px;
+}
+
+.sports__icon-02 {
+	background-image: url(../img/wave.png);
+	background-repeat: no-repeat;
+    width: 38px;
+    height: 26px;
+    float: left;
+    margin-left: -21px;
+    margin-top: -2px;
+}
+
+.sports__icon-03 {
+	background-image: url(../img/kayak.png);
+	background-repeat: no-repeat;
+    width: 34px;
+    height: 25px;
+    float: left;
+    margin-left: -21px;
+    margin-top: -7px;
+}
+
+.sports__icon-04 {
+	background-image: url(../img/parachute.png);
+	background-repeat: no-repeat;
+	width: 35px;
+    height: 27px;
+    float: left;
+    margin-left: -21px;
+    margin-top: -7px;
+}
+
+.sports__icon-05 {
+	background-image: url(../img/mountain.png);
+	background-repeat: no-repeat;
+    width: 42px;
+    height: 20px;
+    float: left;
+    margin-left: -21px;
+    margin-top: -3px;
+}
+
+.sport__bg-01 {
+	background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-position-x: 25%;
+}
+
+.sport__bg-02 {
+	background-image: url(../img/02.jpg);
+    background-size: cover;
+    background-position-x: 33%;
+}
+
+.sport__bg-03 {
+	background-image: url(../img/03.jpg);
+	background-size: cover;
+    background-position-x: 18%;
+}
+
+.sport__bg-04 {
+	background-image: url(../img/04.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+}
+
+.sport__bg-05 {
+	background-image: url(../img/05.jpg);
+    background-size: cover;
+    background-position-x: 84%;
+}

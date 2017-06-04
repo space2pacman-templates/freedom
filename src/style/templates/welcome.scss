@@ -1,0 +1,29 @@
+.welcome {
+    height: 825px;
+    text-align: center;
+	position: relative;
+    z-index: 1;
+}
+
+.welcome-bg {
+	background-image: url(../img/welcome.jpg);
+	background-size: cover;
+}
+
+.welcome__header_small {
+	padding-top: 263px;
+}
+
+.welcome__header_big {
+	margin-top: 3px;
+}
+
+.welcome__description {
+	margin-top: 32px;
+}
+
+.welcome__button {
+	margin: 0 auto;
+	margin-top: 41px;
+    height: 70px;
+}
